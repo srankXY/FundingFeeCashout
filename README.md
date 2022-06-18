@@ -116,11 +116,11 @@ FundingFeeCashout
 
 - OKX:
 
-![ftx.png](https://raw.githubusercontent.com/srankXY/FundingFeeCashout/c45222e3861ef77eaf0488d037ea5015c00a6a74/ftx.png)
+![ftx.png](https://raw.githubusercontent.com/srankXY/FundingFeeCashout/master/ftx.png)
 
 - GATE:
 
-![gate.png](https://raw.githubusercontent.com/srankXY/FundingFeeCashout/1037b547446b76470e8237b14a935d427e7d25cc/gate.png)
+![gate.png](https://raw.githubusercontent.com/srankXY/FundingFeeCashout/master/gate.png)
 
 
 
