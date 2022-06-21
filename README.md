@@ -97,8 +97,8 @@ FundingFeeCashout init
 > "PROXY":              "代理地址，不支持认证，使用http & https 协议开头，不使用可留空",
 > 
 > "DEBUG":              "debug模式，目前支持4个等级
-> 					   verbose:    打印所有日志,最详细，包括api请求的json数据及err数据
-> 					   warning:    打印除json & err 响应之外的所有日志
+>                        verbose:    打印所有日志,最详细，包括api请求的json数据及err数据
+>                        warning:    打印除json & err 响应之外的所有日志
 >                        info:       打印一般信息（会包含各交易所计算时的一些数据）
 >                        留空:        日志最少, 只会显示关键信息",
 > 
@@ -107,12 +107,12 @@ FundingFeeCashout init
 > "SPILT_COUNT":        "总共需要拆成多少次进行下单，只能为正整数",
 > 
 > "PRICE_RATIO":        "下单价格的调整比例，适用于波段行情，且调整的比例应该尽量小，单边行情时请配置为1，例子：0.9999
-> 			开多/平空时表示压低价格为:     price * (1-(1-0.9999))  =  price * 0.9999
-> 			开空/平多时表示提高价格为:     price * (1+(1-0.9999))  =  price / 0.9999",
+>                       开多/平空时表示压低价格为:     price * (1-(1-0.9999))  =  price * 0.9999
+>                       开空/平多时表示提高价格为:     price * (1+(1-0.9999))  =  price / 0.9999",
 > 
 > "OPEN_MODIFY_ORDER_PRICE_OFFSET":     "修改未成交挂单时，是否也按照 PRICE_RATIO 调整价格
-> 						true：调整
-> 						false：不调整(改成最新成交价)",
+>                                       true：调整
+>                                       false：不调整(改成最新成交价)",
 > "PEND_TIMEOUT":       "未成交挂单的超时时间，秒为单位，超时之后将修改挂单价格为最新成交价，且不做价格调整",
 > 
 > "BALANCE_USED_RATIO": "账户预留资金，默认必须要预留一部分，作用：
