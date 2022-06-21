@@ -70,9 +70,13 @@
 
 ```shell
 widows:
-https://github.com/srankXY/FundingFeeCashout/releases/download/V1.0/FundingFeeCashout-V1.exe
+wget https://github.com/srankXY/FundingFeeCashout/releases/download/V1.0/FundingFeeCashout-V1.1.exe
+
+wget https://github.com/srankXY/FundingFeeCashout/releases/download/V1.0/windowsRun.ps1
+
+
 linux:
-wget https://github.com/srankXY/FundingFeeCashout/releases/download/V1.0/FundingFeeCashout-linux-V1
+wget https://github.com/srankXY/FundingFeeCashout/releases/download/V1.0/FundingFeeCashout-linux-V1.1
 ```
 
 ### 初始化:
@@ -112,7 +116,11 @@ FundingFeeCashout init
 ### 运行
 
 ```shell
-FundingFeeCashout
+windows:
+双击 windowsRun.ps1 
+
+linux:
+FundingFeeCashout-linux-V1.1
 ```
 
 根据提示输入 `开仓` 还是 `平仓`， 以及 `对应的` 交易所
