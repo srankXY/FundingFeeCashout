@@ -97,8 +97,8 @@ FundingFeeCashout init
 > "PROXY":              "代理地址，不支持认证，使用http & https 协议开头，不使用可留空",
 > 
 > "DEBUG":              "debug模式，目前支持4个等级
-> 					   verbose:    打印所有日志,最详细，包括api请求的json数据及err数据
->                        warning:    打印除json & err 响应之外的所有日志
+> verbose:    打印所有日志,最详细，包括api请求的json数据及err数据
+> warning:    打印除json & err 响应之外的所有日志
 >                        info:       打印一般信息（会包含各交易所计算时的一些数据）
 >                        留空:        日志最少, 只会显示关键信息",
 > 
