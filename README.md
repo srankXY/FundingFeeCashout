@@ -68,16 +68,20 @@
 
 ### 下载app:
 
+#### widows:
+
 ```shell
-widows:
 wget https://github.com/srankXY/FundingFeeCashout/releases/download/V1.0/FundingFeeCashout-V1.1.exe
-
 wget https://github.com/srankXY/FundingFeeCashout/releases/download/V1.0/windowsRun.ps1
+```
 
+#### linux:
 
-linux:
+```shell
 wget https://github.com/srankXY/FundingFeeCashout/releases/download/V1.0/FundingFeeCashout-linux-V1.1
 ```
+
+
 
 ### 初始化:
 
@@ -118,13 +122,19 @@ FundingFeeCashout init
 
 ### 运行
 
-```shell
-windows:
-双击 windowsRun.ps1 
+#### windows:
 
-linux:
+```shell
+双击 windowsRun.ps1 
+```
+
+#### linux:
+
+```shell
 FundingFeeCashout-linux-V1.1
 ```
+
+
 
 根据提示输入 `开仓` 还是 `平仓`， 以及 `对应的` 交易所
 
