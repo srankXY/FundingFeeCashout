@@ -18,6 +18,15 @@
 
 
 
+## 测试数据分享
+
+
+
+- V1.0 盈利概率为 50%
+- V1.1 正在测试中
+
+
+
 ## 功能介绍
 
 
@@ -134,6 +143,14 @@ FundingFeeCashout
   - 变盘监测
   - 收益监测
 - 自动配平交易所资金
+
+
+
+## 学习交流
+
+
+
+- TG：[FundingFeeCashout CHAT](https://t.me/+rMPBL3WAMWY4M2E9)
 
 
 
